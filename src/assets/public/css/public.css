@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: inline-block; }
+
+em, i {
+  font-style: normal; }
+
+input {
+  border: none; }
+
+b, strong {
+  font-weight: normal; }
+
+html, body {
+  width: 100%; }
+
+html {
+  font-size: 72px; }
+
+/*# sourceMappingURL=public.css.map */
