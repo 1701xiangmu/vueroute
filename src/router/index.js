@@ -5,6 +5,7 @@ import  BaoYou from '@/components/detail/BaoYou.vue'
 import  Guihua from '@/components/detail/Guihua.vue'
 import  JiPiao from '@/components/detail/JiPiao.vue'
 import  QuanGou from '@/components/detail/QuanGou.vue'
+import  DetailId from '@/components/detail/detailid.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -56,6 +57,11 @@ export default new Router({
       path: '/QuanGou',
       name:"QuanGou",
       component: QuanGou
+    },
+    {
+      path: '/DetailId',
+      name:"DetailId",
+      component: DetailId
     },
   ]
 })

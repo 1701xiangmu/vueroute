@@ -12,12 +12,16 @@
             <ul class="nav-ul1">
 
               <li :key="index" v-for="(item,index) in navimg" v-if="index<5" class="nav-ul1-li1">
-                <img :src="item.thumbnailUrl" @click="clickImg(index)"/><br><span>机票</span></li>
+                <router-link :to="{path:'/DetailId',query:{ id:item.id }}" class="around">
+                   <img :src="item.thumbnailUrl" @click="clickImg(index)"/><br><span>机票</span>
+                </router-link>
+              </li>
               <!--<li class="nav-ul1-li2"><img src="../../assets/img/index-nav2.png"/><br><span>酒店</span></li>-->
               <!--<li class="nav-ul1-li3"><img src="../../assets/img/index-nav3.png"/><br><span>机+酒</span></li>-->
               <!--<li class="nav-ul1-li4"><img src="../../assets/img/index-nav4.png"/><br><span>全球购</span></li>-->
               <!--<cqhk-nav-banner-img key="index" :pro="n" v-for="(n,index) in imgNa.img01"></cqhk-nav-banner-img>-->
             </ul>
+
           </div>
         </div>
         <div class="swiper-slide">
