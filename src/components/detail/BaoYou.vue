@@ -1,7 +1,7 @@
 <template>
   <div>
     <p ref="message">包车游</p>
-    <i v-el:food-wap>点我</i>
+    <i>点我</i>
   </div>
 </template>
 

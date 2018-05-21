@@ -79,8 +79,8 @@
       data() {
           return {
               navimg:[],
-             route:["BaoYou","Guihua","JiPiao","QuanGou"]//用name跳转时配置的名字
-            //route:["/BaoYou","/Guihua","/JiPiao","/QuanGou"]//用路由跳转时配置的名字
+            route:["BaoYou","Guihua","JiPiao","QuanGou"]//用name跳转时配置的名字
+          // route:["/BaoYou","/Guihua","/JiPiao","/QuanGou"]//用路由跳转时配置的名字
           }
       },
       created () {

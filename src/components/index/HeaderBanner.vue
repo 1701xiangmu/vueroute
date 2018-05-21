@@ -23,7 +23,7 @@
         <!--<div  class="swiper-slide">
           <img src="../../assets/img/index-banner6.jpg"/>
         </div>-->
-        <header-banner-img  :key="ind" :img="n" v-for="(n,ind) in imgList" v-if="ind<10"></header-banner-img>
+        <header-banner-img  :key="ind" :img="n" v-for="(n,ind) in imgList" v-if="ind<5"></header-banner-img>
       </div>
       <!-- Add Pagination -->
         <div class="swiper-pagination Btn"></div>

@@ -2,18 +2,21 @@
     <div>
         <header-banner></header-banner>
         <bannner-nav></bannner-nav>
+      <img-load></img-load>
     </div>
 </template>
 
 <script>
   import HeaderBanner from "../components/index/HeaderBanner";
   import BannnerNav from "../components/index/BannerNav";
+  import ImgLoad from  "../components/index/imgload";
   import BannerInx from "../service/index";
     export default {
      //   name: "indexheader",
         components:{
           HeaderBanner,
-          BannnerNav
+          BannnerNav,
+          ImgLoad
         },
       // data(){
       //   return {

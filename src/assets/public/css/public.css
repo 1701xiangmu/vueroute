@@ -16,7 +16,8 @@ a {
   text-decoration: none; }
 
 img {
-  display: inline-block; }
+  display: inline-block;
+  width: 100%; }
 
 em, i {
   font-style: normal; }
