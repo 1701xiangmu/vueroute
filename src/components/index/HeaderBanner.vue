@@ -1,4 +1,5 @@
 <template>
+  <div>
   <header>
     <div class="swiper-container Head">
       <div class="swiper-wrapper">
@@ -30,6 +31,7 @@
     </div>
 
   </header>
+  </div>
 </template>
 
 <script>

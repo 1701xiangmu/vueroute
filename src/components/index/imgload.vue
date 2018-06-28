@@ -1,4 +1,5 @@
 <template>
+  <div>
     <ul class="loadimg">
       <!--图片文件夹要放在外边static下，src下不显示-->
       <li><img v-lazy="'../../../static/img/index-main1.jpg'" alt=""/> </li>
@@ -12,6 +13,7 @@
       <li><img v-lazy="'../../../static/img/index-main9.jpg'"/> </li>
       <li><img v-lazy="'../../../static/img/index-main10.jpg'"/> </li>
     </ul>
+  </div>
 </template>
 
 <script>

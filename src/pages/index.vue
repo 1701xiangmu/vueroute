@@ -1,22 +1,34 @@
 <template>
     <div>
+      <content-parent></content-parent>
+      <Head-tit :title="message"></Head-tit>
         <header-banner></header-banner>
         <bannner-nav></bannner-nav>
       <img-load></img-load>
+
     </div>
 </template>
 
 <script>
+  import HeadTit from "../components/index/HeadTit";
   import HeaderBanner from "../components/index/HeaderBanner";
   import BannnerNav from "../components/index/BannerNav";
   import ImgLoad from  "../components/index/imgload";
+  import contentParent from "../components/index/ContentParent";
   import BannerInx from "../service/index";
     export default {
      //   name: "indexheader",
         components:{
+          HeadTit,
           HeaderBanner,
           BannnerNav,
-          ImgLoad
+          ImgLoad,
+          contentParent
+        },
+        data(){
+          return{
+            message:'nihao'
+          }
         },
       // data(){
       //   return {
