@@ -10,7 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {},//关于proxyTable  查看这个地址https://www.cnblogs.com/congxueda/p/7087144.html
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
